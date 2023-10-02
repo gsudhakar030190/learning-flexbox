@@ -4,7 +4,7 @@ import AppLayout from "./layout/AppLayout";
 import {
   Header,
   UserInfo,
-  CheckoutSectionTime,
+  CheckInAndCheckoutDate,
   ResortOrRoomSelect,
   SelectionInfoAndOffers,
   Footer,
@@ -16,7 +16,7 @@ function App() {
       <AppLayout selectionType={"resort"}>
         <Header />
         <UserInfo />
-        <CheckoutSectionTime />
+        <CheckInAndCheckoutDate />
         <ResortOrRoomSelect />
         <SelectionInfoAndOffers />
         <Footer />
