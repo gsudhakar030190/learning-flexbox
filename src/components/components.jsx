@@ -5,8 +5,8 @@ const UserInfo = () => {
   return <h3>User Info placeholder</h3>;
 };
 
-const CheckoutSectionTime = () => {
-  return <h3>Checkout Section placeholder</h3>;
+const CheckInAndCheckoutDate = () => {
+  return <h3>Check In and check Out Section placeholder</h3>;
 };
 
 const ResortOrRoomSelect = () => {
@@ -27,5 +27,5 @@ export {
   SelectionInfoAndOffers,
   ResortOrRoomSelect,
   UserInfo,
-  CheckoutSectionTime,
+  CheckInAndCheckoutDate,
 };
