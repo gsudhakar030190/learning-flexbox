@@ -1,0 +1,43 @@
+.flex-container {
+  display: flex;
+  flex-flow: column nowrap;
+
+  height: 100vh;
+}
+
+.flex-header, 
+.flex-footer, 
+.flex-userInfo {
+  padding: 2rem 0 2rem 0;
+  border: 1px solid gray;
+}
+
+.flex-content {
+  display: flex;
+  flex: 1;
+   
+   
+}
+
+.flex-content > * {
+  border: 1px solid gray;
+}
+
+.flex-checkout, .flex-features {
+  flex: 1 1 2rem;
+}
+
+.flex-selection {
+  flex: 2 2 auto;
+}
+
+
+@media all and (max-width: 600px) {
+  .flex-content {
+    flex-direction: column;
+
+  }
+  * {
+    font-size: 12px;
+  }
+}
